@@ -108,7 +108,6 @@ func combinations(a []int, start int, fn func([]int)) {
 
 	if start == len(a)-1 {
 		// bottom of recursion. You get here once for each permutation.
-		fn(a)
 		return
 	}
 
